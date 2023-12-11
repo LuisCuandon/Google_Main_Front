@@ -1,0 +1,189 @@
+#header{
+    font-size: 14px;
+    background-color: white;
+    text-align: right;
+    margin: 0px 0px 100px 0px;
+    padding: 10px;
+    font-size: 14px;
+    font-family: arial,sans-serif;
+    color: #000000;
+    text-decoration: none;
+}
+
+.top-links{
+    text-decoration: none;
+    padding: 5px;
+    color: #333333;
+}
+
+.top-links:hover{
+    text-decoration: underline;
+}
+
+.bottom1 > a:hover, .bottom2 > a:hover{
+    text-decoration: underline;
+}
+
+.voice{
+    height:20px;
+    position: relative;
+    margin-top: 15px;
+}
+
+.voice:hover{
+    cursor: pointer;
+}
+
+.grid{
+    height:25px;
+    text-decoration: none;
+    padding: 5px 3px 0px 3px;
+    background-color: white;
+    position: relative;
+}
+
+.grid:hover{
+    cursor: pointer;
+}
+
+#logo{
+    text-align: center;
+    background-color: white;
+    margin: 100px 0px 25px 0px;
+    cursor: pointer;
+}
+.search{
+    text-align: center;
+}
+
+.bar{
+    margin:auto;
+    width:575px;
+    border-radius:30px;
+    border:1px solid #dcdcdc;
+}
+
+.bar:hover{
+    box-shadow: 1px 1px 8px 1px #dcdcdc;
+}
+
+.bar:focus-within{
+    box-shadow: 1px 1px 8px 1px #dcdcdc;
+    outline:none;
+}
+
+.search-bar{
+    height:45px;
+    border:none;
+    width:500px;
+    font-size:16px;
+    outline: none;
+    text-align: justify;
+}
+
+#middle{
+    margin-top: 30px;
+    margin-bottom: 50px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+}
+
+#latino{
+    text-decoration: none;
+}
+
+#latino:hover{
+    text-decoration: underline;
+}
+
+#footer{
+    background: #eeeeee;
+    background-size: initial;
+    border-collapse: collapse;
+}
+
+.bottom-links{
+    display: flex;
+    justify-content: space-evenly;
+    border-top: 0.5px solid gray;
+}
+
+.bottom1, .bottom2 {
+    text-decoration: none;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#sign-button{
+    background-color: #4885ed;
+    color: #fff;
+    border-radius:4px;
+    padding:7px 12px;
+    position:relative;
+    font-weight:bold;
+    bottom: 6px;
+    border: none;
+}
+
+#sign-button:hover{
+    cursor: pointer;
+}
+
+.bottom1 > a, .bottom2 > a{
+    padding: 7px;
+    text-decoration: none;
+    margin-top: 6px;
+    margin-bottom: 12px;
+    font-size: 15px;
+    font-family: arial,sans-serif;
+    color: #707070;
+}
+
+body{
+    border-collapse: collapse;
+    outline: none;
+    padding: 0px;
+    margin: 0px;
+}
+
+#Mexico{
+    padding: 13px;
+    margin-top: 147px;
+    text-align: left;
+    border: 1px solid lightgray;
+    font-size: 15px;
+    font-family: arial,sans-serif;
+    color: #707070;
+    border: none;
+}
+
+.button{
+    background-color: #f8f8f8;
+    border:none;
+    color: #444444;
+    font-size:15px;
+    padding: 10px 20px;
+    margin:5px;
+    border-radius:4px;
+    outline:none;
+}
+
+.button:hover{
+    border: 1px solid #c8c8c8;
+    padding: 9px 19px;
+    color: black;
+    cursor: pointer;
+}
+  
+.button:focus{
+    border:1px solid #4885ed;
+    padding: 9px 19px;
+}
+
+.bar{
+    margin:0 auto;
+    width:575px;
+    border-radius:30px;
+    border:1px solid #dcdcdc;
+}
